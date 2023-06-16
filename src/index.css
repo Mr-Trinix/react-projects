@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button, input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  .active:hover {
+    color: #1a1a1a;
+  }
+  button, input {
+    background-color: #f9f9f9;
+  }
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #e0e0e0;
+  gap: 1rem;
+}
+
+.active {
+  color: black;
+  font-weight: 900;
+}
+
+footer {
+  margin-top: 1em;
+  padding: 1em 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* FREELANCE BOX */
+.no-margin { margin: 0; }
+.freelance-box {
+  text-align: initial;
+  box-shadow: 0px 3px 6px rgba(0,0,0,.161);
+  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+.freelance-box .company {
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  background-color: lightgray;
+  color: #1a1a1a;
+  border-radius: 7px;
+}
+.freelance-box p { margin: 0 }
+.freelance-box .title { color: #747bff }
+.clr-black { color: #1a1a1a; }
+.clr-grey { color: #a7a7a7; }
+/* &nbsp; */
